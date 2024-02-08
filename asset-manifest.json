@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/secondTemp/static/css/main.30e847ed.css",
+    "main.js": "/secondTemp/static/js/main.a9c4856c.js",
+    "static/js/808.1aec5cd1.chunk.js": "/secondTemp/static/js/808.1aec5cd1.chunk.js",
+    "static/media/ehab1.jpg": "/secondTemp/static/media/ehab1.02972d8e7747d2c5c92e.jpg",
+    "index.html": "/secondTemp/index.html",
+    "main.30e847ed.css.map": "/secondTemp/static/css/main.30e847ed.css.map",
+    "main.a9c4856c.js.map": "/secondTemp/static/js/main.a9c4856c.js.map",
+    "808.1aec5cd1.chunk.js.map": "/secondTemp/static/js/808.1aec5cd1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30e847ed.css",
+    "static/js/main.a9c4856c.js"
+  ]
+}
