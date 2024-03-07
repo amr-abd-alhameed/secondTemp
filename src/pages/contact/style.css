@@ -1,20 +1,21 @@
-.contact__form .form-control {  padding: 1.375rem 0.75rem;
+.contact__form .form-control {
+  padding: 1.375rem 0.75rem;
   line-height: 1.5;
   /* color: var(--text-color); */
-  background-color: var(--bg-color);
+  background-color: var(--primary-color);
   border-radius: 0 !important;
-  border: 1px solid var(--secondary-color);
+  border: 1px solid var(--text-color-2);
 }
 
 .address ::placeholder {
-  color: var(--text-color);
+  color: var(--text-color-2);
   opacity: 1;
 }
 input::placeholder {
-  color: var(--secondary-color) !important;
+  color: var(--text-color-2) !important;
 }
 textarea::placeholder {
-  color: var(--secondary-color) !important;
+  color: var(--text-color-2) !important;
 }
 
 .contact__form input.form-control {
@@ -23,7 +24,7 @@ textarea::placeholder {
 }
 
 button.btn.ac_btn:hover {
-  color: var(--secondary-color);
+  color: var(--text-color-2);
 }
 
 .loading-bar {
@@ -33,7 +34,7 @@ button.btn.ac_btn:hover {
   right: 0;
   height: 10px;
   z-index: 999999999;
-  background: var(--text-color);
+  background: var(--text-color-2);
   transform: translateX(100%);
   animation: shift-rightwards 1s ease-in-out infinite;
   animation-delay: 0.3s;

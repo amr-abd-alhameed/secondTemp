@@ -1,5 +1,5 @@
-:root {
-  --bg-color: #000000;
+[data-theme="dark"] {
+  /* --bg-color: #000000; */
   --primary-color: #000000;
   --secondary-color: #fff;
   --text-color: #fff;
@@ -9,7 +9,7 @@
 }
 
 [data-theme="light"] {
-  --bg-color: #ffffff;
+  /* --bg-color: #ffffff; */
   --primary-color: #ffffff;
   --secondary-color: #000;
   --text-color: #000;
@@ -28,8 +28,8 @@ body {
   height: 100%;
   overflow-x: hidden;
   overflow-y: visible;
-  background-color: var(--bg-color);
-  color: var(--text-color);
+  background-color: var(--primary-color) !important;
+  color: var(--text-color-2);
   font-family: "Roboto", sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -49,6 +49,7 @@ h4,
 h5,
 h6 {
   font-family: "Roboto", sans-serif;
+  color: var(--text-color-2) !important;
 }
 
 a,
@@ -59,6 +60,14 @@ a:hover {
 p {
   word-break: break-word;
   hyphens: auto;
+  color: var(--text-color) !important;
+}
+th {
+  color: var(--text-color) !important;
+}
+
+.typewriter-text {
+  color: rgb(32, 236, 83) !important;
 }
 
 .ovhidden {
@@ -76,9 +85,9 @@ code {
 }
 
 .color_pr {
-  color: var(--primary-color) !important;
+  color: var(--primary-color);
 }
 
 .color_sec {
-  color: var(--secondary-color) !important;
+  color: var(--text-color-2);
 }

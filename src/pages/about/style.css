@@ -1,4 +1,5 @@
-.sec_sp {  margin-bottom: calc(3rem + 5.128vw);
+.sec_sp {
+  margin-bottom: calc(3rem + 5.128vw);
 }
 
 /* .table td,
@@ -10,7 +11,7 @@
 }
 
 .t_border {
-  border-color: var(--text-color) !important;
+  border-color: var(--text-color-2) !important;
 }
 
 .progress-title {
